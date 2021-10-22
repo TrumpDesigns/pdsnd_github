@@ -12,12 +12,9 @@ It Explores Questions Like:
 1. What is the most popular month for start time?
 2. What is the most popular day of week (Monday, Tuesday, etc.) for start time?
 3. What is the most popular hour of day for start time?
-
 4. What is the most popular start station and most popular end station?
 5. What is the most popular trip?
-
 6. What is the total trip duration and average trip duration?
-
 7. What are the counts of each user type?
 8. What are the counts of gender? (only available for NYC and Chicago)
 9. What are the earliest (i.e. oldest person), most recent (i.e. youngest person), and most popular birth years?
