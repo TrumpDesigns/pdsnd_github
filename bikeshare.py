@@ -38,7 +38,7 @@ def get_filters():
      if month not in MonthData: 
         print('WRONG INPUT!! TRY AGAIN')
         
-    print('INPUT RECEIVED')
+    print('INPUT RECEIVED!!')
     print(f"\nYou have chosen {month.upper()} as your month.")
 
     
@@ -79,7 +79,7 @@ def load_data(city, month, day):
 
     # extract month and day of week from Start Time to create new columns
     df['month'] = df['Start Time'].dt.month
-    df['day_of_week'] = df['Start Time'].dt.weekday_name
+    df['day_of_week'] =  df['Start Time'].dt.weekday_name
 
     # filter by month if applicable
     if month != 'all':
